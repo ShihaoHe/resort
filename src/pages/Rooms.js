@@ -11,7 +11,7 @@ const Rooms = (props) => {
         <>
         <Background className='roomsHero'>
             <Banner title='our rooms'>
-                <Link to='/' className='btn-primary'>
+                <Link to='/resort' className='btn-primary'>
                     return home
                 </Link>
             </Banner>

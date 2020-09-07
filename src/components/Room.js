@@ -17,7 +17,7 @@ const Room = memo(
                         <h6>${price}</h6>
                         <p>per night</p>
                     </div>
-                    <Link to={`/rooms/${slug}`} className='btn-primary'>
+                    <Link to={`/resort/rooms/${slug}`} className='btn-primary'>
                         features
                     </Link>
                 </div>

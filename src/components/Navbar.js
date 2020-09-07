@@ -21,7 +21,7 @@ class Navbar extends React.Component {
             <nav className='navbar'>
                 <div className='nav-center'>
                     <div className='nav-header'>
-                        <Link to='/'>
+                        <Link to='/resort'>
                             <img src={logo} alt='resort beach' />
                         </Link>
                         <button type='button' className='nav-btn' onClick={this.handleToggle}>
@@ -30,10 +30,10 @@ class Navbar extends React.Component {
                     </div>
                     <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
                         <li>
-                            <Link to='/'>Home</Link>
+                            <Link to='/resort'>Home</Link>
                         </li>
                         <li>
-                            <Link to='/rooms'>Rooms</Link>
+                            <Link to='/resort/rooms'>Rooms</Link>
                         </li>
                     </ul>
                 </div>
